@@ -1,0 +1,15 @@
+{
+  "name": "commit-agent",
+  "version": "1.0.0",
+  "description": "Cross-platform Git commit tracking agent for Windows and Linux",
+  "bin": {
+    "commit-agent": "./bin/commit-agent.js"
+  },
+  "main": "./bin/commit-agent.js",
+  "scripts": {
+    "start": "node ./bin/commit-agent.js"
+  },
+  "keywords": ["git", "commit", "cloudflare", "d1", "hook"],
+  "author": "",
+  "license": "MIT"
+}

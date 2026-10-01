@@ -1,0 +1,14 @@
+name = "commit-agent-worker"
+main = "worker/src/index.ts"
+compatibility_date = "2024-09-30"
+workers_dev = true
+
+# Descomenta si usas un dominio propio:
+# routes = [
+#   { pattern = "commits.tu-dominio.com", custom_domain = true }
+# ]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "commit-agent-db"
+database_id = "TU_DATABASE_ID_AQUI"

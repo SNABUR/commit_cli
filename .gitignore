@@ -1,0 +1,26 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Cloudflare Wrangler
+.wrangler/
+
+# Build and logs
+dist/
+build/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Sensitive / Local configuration
+API.md
+wrangler.toml
+
+# OS metadata
+.DS_Store
+Thumbs.db
